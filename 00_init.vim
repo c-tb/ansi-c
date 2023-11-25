@@ -7,7 +7,7 @@ let g:ale_fix_on_save = 1
 let g:ale_fixers = { 'c': ['clang-format'] }
 
 call plug#begin()
-  Plug 'nvim-treesitter/nvim-treesitter'  " syntax highlighting
+  Plug 'bfrg/vim-cpp-modern'
   Plug 'dense-analysis/ale'               " in editor warn/error
 call plug#end()
 
